@@ -1,7 +1,7 @@
 describe('test functionality of country explorer aplication', () => {
 
   beforeEach(() => {
-    cy.visit('http://localhost:3000/')
+    cy.visit('https://prueba-tecnica-api-seven.vercel.app/')
   })
 
   it('Verify that user can view details of a country', () => {
