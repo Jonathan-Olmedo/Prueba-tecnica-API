@@ -27,10 +27,6 @@ const Home = () => {
     }
   };
 
-  /* useEffect(() => {
-    console.log('la lista de country en historial es', history)
-  }, [history]) */
-
   const [country, setCountry] = useState([]);
   useEffect(() => {
     fetch(

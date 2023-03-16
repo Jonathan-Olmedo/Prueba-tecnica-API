@@ -6,6 +6,9 @@ export const HomeStyled = styled.main`
   justify-content: center;
   align-items: center;
   gap: 30px;
+  @media screen and (max-width: 767px){
+    flex-wrap: wrap;
+  }
 `;
 
 export const HeaderStyled = styled.div`
@@ -213,3 +216,5 @@ export const RightPanelStyled = styled.div`
     font-size: 18px;
   }
 `;
+
+
